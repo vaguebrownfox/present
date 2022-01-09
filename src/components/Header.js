@@ -22,7 +22,7 @@ const classes = {
 
 const Header = React.memo(function Header() {
 	return (
-		<AppBar position="fixed" color="primary" className={classes.appBar}>
+		<AppBar sx={classes.appBar} position="fixed" color="primary">
 			<Toolbar>
 				<Box fontSize="h6.fontSize" flexGrow={1}>
 					{PROJECT_NAME}
